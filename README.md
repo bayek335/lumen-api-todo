@@ -1,30 +1,30 @@
 # Lumen API Todo DevCode Challenge
-This API build for submiting a challenge at devcode challenge #2Backend.
+This API build for submiting a challenge at devcode challenge #2Backend .
 
 ## End Point
 
-TODO LIST
-Get all
+TODO LIST .
+Get all .
 GET /todo-items\n
-Get specify
+Get specify .
 GET /todo-items/{id}
-Insert
+Insert .
 POST /todo-items
-Update
+Update .
 PATCH /todo-items/{id}
-Remove
+Remove .
 DELETE /todo-items/{id}
 
 ACTIVITY GROUPS
-Get all
+Get all .
 GET /activity-groups
-Get specify
+Get specify .
 GET /activity-groups/{id}
-Insert
+Insert .
 POST /activity-groups
-Update
+Update .
 PATCH /activity-groups/{id}
-Remove
+Remove .
 DELETE /activity-groups/{id}
 
 
