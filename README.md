@@ -4,8 +4,8 @@ This API build for submiting a challenge at devcode challenge #2Backend.
 ## End Point
 
 TODO LIST
-Get all
-##GET /todo-items
+Get all \n
+##GET /todo-items\n
 Get specify
 ##GET /todo-items/{id}
 Insert
