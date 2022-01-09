@@ -5,13 +5,17 @@ This API build for submiting a challenge at devcode challenge #2Backend .
 
 TODO LIST .
 Get all .
-GET /todo-items\n
+GET /todo-items
+
 Get specify .
 GET /todo-items/{id}
+
 Insert .
 POST /todo-items
+
 Update .
 PATCH /todo-items/{id}
+
 Remove .
 DELETE /todo-items/{id}
 
