@@ -1,0 +1,41 @@
+# version: "3.5"
+
+# services:
+  
+#   mysql:
+#     image: mysql:5.7
+#     ports:
+#       - "3306:3306"
+#     restart: always
+#     environment:
+#       MYSQL_ROOT_PASSWORD: secret
+#     command: mysqld --default-authentication-plugin=mysql_native_password
+#     volumes:
+#       - ./database/initialize_db_bayu_pamungkas.sql:/docker-entrypoint-initdb.d/setup.sql
+#     networks:
+#       - api-network
+
+#   lumen:
+#     ports:
+#       - "8000:8000"
+#     volumes:
+#       - .:/var/www/html
+#       - /var/www/html/vendor/
+#     build: .
+#     environment:
+#       DB_HOST: ${DB_HOST}
+#       DB_PORT: 3306
+#       DB_DATABASE: ${DB_DATABASE}
+#       DB_USERNAME: ${DB_USERNAME}
+#       DB_PASSWORD: ${DB_PASSWORD}
+#       MEMCACHED_HOST: cache
+#     command: php -S 0.0.0.0:8000 -t public
+#     restart: always
+#     networks:
+#       - api-network
+#     depends_on:
+#       - mysql
+
+# networks:
+#   api-network:
+#     name: api-network
