@@ -4,27 +4,27 @@ This API build for submiting a challenge at devcode challenge #2Backend.
 ## End Point
 
 TODO LIST
-Get all \n
-##GET /todo-items\n
+Get all
+GET /todo-items\n
 Get specify
-##GET /todo-items/{id}
+GET /todo-items/{id}
 Insert
-##POST /todo-items
+POST /todo-items
 Update
-##PATCH /todo-items/{id}
+PATCH /todo-items/{id}
 Remove
-##DELETE /todo-items/{id}
+DELETE /todo-items/{id}
 
 ACTIVITY GROUPS
 Get all
-##GET /activity-groups
+GET /activity-groups
 Get specify
-##GET /activity-groups/{id}
+GET /activity-groups/{id}
 Insert
-##POST /activity-groups
+POST /activity-groups
 Update
-##PATCH /activity-groups/{id}
+PATCH /activity-groups/{id}
 Remove
-##DELETE /activity-groups/{id}
+DELETE /activity-groups/{id}
 
 
